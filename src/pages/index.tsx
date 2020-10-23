@@ -14,10 +14,9 @@ export default function Home() {
   }
 
   return (
-    <div>
-      <p className="text-center">iran map</p>
+    <div className="w-full">
       <div className="flex justify-center">
-        <div className="flex-1 ml-8">
+        <div className="flex-1">
           <ProvincesList
             onSelect={navigateToProvince}
             onHover={province => setHovered(province)}
@@ -26,7 +25,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex px-12">
+        <div className="flex px-8">
           <Map
             SVG={IranMap}
             onHover={province => setHovered(province)}
