@@ -1,7 +1,9 @@
 import * as React from "react"
-import Iran from "../components/maps/iran"
 import { navigate } from "gatsby"
 import ProvincesList from "../components/provinces-list"
+import Map from "../components/map"
+
+import IranMap from "../maps/iran.svg"
 import Provinces from "../fixtures/provinces.json"
 
 export default function Home() {
@@ -19,13 +21,16 @@ export default function Home() {
           <ProvincesList
             onSelect={navigateToProvince}
             onHover={province => setHovered(province)}
+            onLeave={() => setHovered(null)}
             focus={hovered}
           />
         </div>
 
         <div className="flex px-12">
-          <Iran
+          <Map
+            SVG={IranMap}
             onHover={province => setHovered(province)}
+            onLeave={() => setHovered(null)}
             onSelect={navigateToProvince}
             focus={hovered}
           />

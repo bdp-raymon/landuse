@@ -1,7 +1,13 @@
 {
   "IR-01": {
     "fa": "آذربایجان شرقی",
-    "en": "azarbaijan-sharqi"
+    "en": "azarbaijan-sharqi",
+    "cities": {
+	"IR-0101": {
+	    "fa": "تست",
+	    "en": "test"
+	}
+    }
   },
   "IR-02": {
     "fa": "آذربایجان غربی",

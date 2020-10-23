@@ -7,12 +7,14 @@ type ProvincesListType = {
   focus?: string | null
   onSelect: (code: string) => void
   onHover: (code: string) => void
+  onLeave: () => void
 }
 
 const ProvincesList: React.FC<ProvincesListType> = ({
   focus,
   onSelect,
   onHover,
+  onLeave,
 }) => {
   const List = () => {
     const items = Object.keys(Provinces).map(code => {
@@ -22,6 +24,7 @@ const ProvincesList: React.FC<ProvincesListType> = ({
         <li
           className={"flex flex-row items-center cursor-pointer"}
           onMouseOver={() => onHover(code)}
+          onMouseOut={onLeave}
           onClick={() => onSelect(code)}
         >
           <div className="z-10 rounded-full bg-red-200 p-4">

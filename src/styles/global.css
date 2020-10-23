@@ -4,8 +4,11 @@
 
 @tailwind utilities;
 
+@import "_fonts.css";
+
 html, body {
     direction: rtl;
+    font-family: IRANSans;
 }
 
 .highlight-province {
