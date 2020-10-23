@@ -1,0 +1,126 @@
+{
+  "IR-01": {
+    "fa": "آذربایجان شرقی",
+    "en": "azarbaijan-sharqi"
+  },
+  "IR-02": {
+    "fa": "آذربایجان غربی",
+    "en": "azarbaijan-qarbi"
+  },
+  "IR-03": {
+    "fa": "اردبیل",
+    "en": "ardabil"
+  },
+  "IR-04": {
+    "fa": "اصفهان",
+    "en": "esfahan"
+  },
+  "IR-05": {
+    "fa": "البرز",
+    "en": "alborz"
+  },
+  "IR-06": {
+    "fa": "ایلام",
+    "en": "ilam"
+  },
+  "IR-07": {
+    "fa": "بوشهر",
+    "en": "bushehr"
+  },
+  "IR-08": {
+    "fa": "تهران",
+    "en": "tehran"
+  },
+  "IR-09": {
+    "fa": "چهارمحال و بختیاری",
+    "en": "chahar-mahall-bakhtiari"
+  },
+  "IR-10": {
+    "fa": "خراسان جنوبی",
+    "en": "khorasan-jonoubi"
+  },
+  "IR-11": {
+    "fa": "خراسان رضوی",
+    "en": "khorasan-razavi"
+  },
+  "IR-12": {
+    "fa": "خراسان شمالی",
+    "en": "khorasan-shomali"
+  },
+  "IR-13": {
+    "fa": "خوزستان",
+    "en": "khuszestan"
+  },
+  "IR-14": {
+    "fa": "زنجان",
+    "en": "zanjan"
+  },
+  "IR-15": {
+    "fa": "سمنان",
+    "en": "semnan"
+  },
+  "IR-16": {
+    "fa": "سیستان و بلوچستان",
+    "en": "sistan-baluchestan"
+  },
+  "IR-17": {
+    "fa": "فارس",
+    "en": "fars"
+  },
+  "IR-18": {
+    "fa": "قزوین",
+    "en": "qazvin"
+  },
+  "IR-19": {
+    "fa": "قم",
+    "en": "qom"
+  },
+  "IR-20": {
+    "fa": "کردستان",
+    "en": "kordestan"
+  },
+  "IR-21": {
+    "fa": "کرمان",
+    "en": "kerman"
+  },
+  "IR-22": {
+    "fa": "کرمانشاه",
+    "en": "kermanshah"
+  },
+  "IR-23": {
+    "fa": "کهگیلویه و بویراحمد",
+    "en": "kohgiluye-boyer-ahmad"
+  },
+  "IR-24": {
+    "fa": "گلستان",
+    "en": "golestan"
+  },
+  "IR-25": {
+    "fa": "گیلان",
+    "en": "gilan"
+  },
+  "IR-26": {
+    "fa": "لرستان",
+    "en": "lorestan"
+  },
+  "IR-27": {
+    "fa": "مازندران",
+    "en": "mazandaran"
+  },
+  "IR-28": {
+    "fa": "مرکزی",
+    "en": "markazi"
+  },
+  "IR-29": {
+    "fa": "هرمزگان",
+    "en": "hormozgan"
+  },
+  "IR-30": {
+    "fa": "همدان",
+    "en": "hamadan"
+  },
+  "IR-31": {
+    "fa": "یزد",
+    "en": "yazd"
+  }
+}

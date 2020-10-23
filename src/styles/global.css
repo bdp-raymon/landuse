@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html, body {
+    direction: rtl;
+}
+
+.highlight-province {
+    cursor: pointer;
+    fill: red;
+}
+
+.iran-map path:hover {
+    @apply .highlight-province;
+}
