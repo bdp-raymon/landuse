@@ -18,8 +18,8 @@ export default function Home() {
       <div className="flex justify-center">
         <div className="flex-1">
           <MapList
+            link={code => "provinces/" + Provinces[code].en}
             data={Provinces}
-            onSelect={navigateToProvince}
             onHover={province => setHovered(province)}
             onLeave={() => setHovered(null)}
             focus={hovered}

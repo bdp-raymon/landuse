@@ -32,7 +32,11 @@ const Map: React.FC<IranType> = ({
       return
     }
 
-    const focused = document.querySelector(".iran-map #" + focus)
+    const focused = document.querySelector("svg #" + focus)
+
+    if (!focused) {
+      return
+    }
 
     focused.classList.add("highlight-province")
 

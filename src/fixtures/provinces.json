@@ -2,131 +2,1936 @@
   "IR-01": {
     "fa": "آذربایجان شرقی",
     "en": "azarbaijan-sharqi",
-    "cities": {
+    "cities":{
       "IR-0101": {
-        "fa": "تست",
-        "en": "test"
+        "fa": "آذرشهر",
+        "en": "azar-shahr"
+      },
+      "IR-0102": {
+        "fa": "اهر",
+        "en": "ahar"
+      },
+      "IR-0103": {
+        "fa": "اسکو",
+        "en": "osku"
+      },
+      "IR-0104": {
+        "fa": "بستان آباد",
+        "en": "bostan-abad"
+      },
+      "IR-0105": {
+        "fa": "بناب",
+        "en": "bonab"
+      },
+      "IR-0106": {
+        "fa": "تبریز",
+        "en": "tabriz"
+      },
+      "IR-0107": {
+        "fa": "جلفا",
+        "en": "khoda-afarin",
+        "en": "jolfa"
+      },
+      "IR-0108": {
+        "fa": "چاراویماق",
+        "en": "charavimagh"
+      },
+      "IR-0109": {
+        "fa": "خداآفرین",
+        "en": "khoda-afarin"
+      },
+      "IR-0110": {
+        "fa": "سراب",
+        "en": "sarab"
+      },
+      "IR-0111": {
+        "fa": "شبستر",
+        "en": "shabestar"
+      },
+      "IR-0112": {
+        "fa": "عجب شیر",
+        "en": "ajab-shir"
+      },
+      "IR-0113": {
+        "fa": "کلیبر",
+        "en": "kalibar"
+      },
+      "IR-0114": {
+        "fa": "مراغه",
+        "en": "maraqe"
+      },
+      "IR-0115": {
+        "fa": "مرند",
+        "en": "marand"
+      },
+      "IR-0116": {
+        "fa": "ملکان",
+        "en": "malekan"
+      },
+      "IR-0117": {
+        "fa": "میانه",
+        "en": "mianeh"
+      },
+      "IR-0118": {
+        "fa": "ورزقان",
+        "en": "varzaqan"
+      },
+      "IR-0119": {
+        "fa": "هریس",
+        "en": "haris"
+      },
+      "IR-0120": {
+        "fa": "هشترود",
+        "en": "hashtrood"
+      },
+      "IR-0121": {
+        "fa": "هوراند",
+        "en": "horand"
       }
     }
   },
   "IR-02": {
     "fa": "آذربایجان غربی",
-    "en": "azarbaijan-qarbi"
+    "en": "azarbaijan-qarbi",
+    "cities": {
+      "IR-0201": {
+        "fa": "ارومیه",
+        "en": "oromie"
+      },
+      "IR-0202": {
+        "fa": "اشنویه",
+        "en": "oshnavieh"
+      },
+      "IR-0203": {
+        "fa": "بوکان",
+        "en": "bukan"
+      },
+      "IR-0204": {
+        "fa": "پیرانشهر",
+        "en": "piran-shahr"
+      },
+      "IR-0205": {
+        "fa": "تکاب",
+        "en": "takab"
+      },
+      "IR-0206": {
+        "fa": "خوی",
+        "en": "khoy"
+      },
+      "IR-0207": {
+        "fa": "چالدران",
+        "en": "chaldoran"
+      },
+      "IR-0208": {
+        "fa": "چایپاره",
+        "en": "chaypareh"
+      },
+      "IR-0209": {
+        "fa": "شوط",
+        "en": "showt"
+      },
+      "IR-0210": {
+        "fa": "پلدشت",
+        "en": "poldasht"
+      },
+      "IR-0211": {
+        "fa": "سردشت",
+        "en": "sardasht"
+      },
+      "IR-0212": {
+        "fa": "سلماس",
+        "en": "salmas"
+      },
+      "IR-0213": {
+        "fa": "شاهین دژ",
+        "en": "shahin-dej"
+      },
+      "IR-0214": {
+        "fa": "ماکو",
+        "en": "makou"
+      },
+      "IR-0215": {
+        "fa": "مهاباد",
+        "en": "mahabad"
+      },
+      "IR-0216": {
+        "fa": "میاندوآب",
+        "en": "miandoab"
+      },
+      "IR-0217": {
+        "fa": "نقده",
+        "en": "naqadeh"
+      }
+    }
   },
   "IR-03": {
     "fa": "اردبیل",
-    "en": "ardabil"
+    "en": "ardabil",
+    "cities": {
+      "IR-0301": {
+        "fa": "اردبیل",
+        "en": "ardebil"
+      },
+      "IR-0302": {
+        "fa": "اصلاندوز",
+        "en": "aslandooz"
+      },
+      "IR-0303": {
+        "fa": "بیله‌سوار",
+        "en": "bileh-savar"
+      },
+      "IR-0304": {
+        "fa": "پارس‌آباد",
+        "en": "pars-abad"
+      },
+      "IR-0305": {
+        "fa": "خلخال",
+        "en": "khalkhal"
+      },
+      "IR-0306": {
+        "fa": "سرعین",
+        "en": "sar-eyn"
+      },
+      "IR-0307": {
+        "fa": "کوثر",
+        "en": "koar"
+      },
+      "IR-0308": {
+        "fa": "گرمی",
+        "en": "garmi"
+      },
+      "IR-0309": {
+        "fa": "مشکین‌شهر",
+        "en": "meshkin-shahr"
+      },
+      "IR-0310": {
+        "fa": "نمین",
+        "en": "namin"
+      },
+      "IR-0311": {
+        "fa": "نیر",
+        "en": "nir"
+      }
+    }
   },
   "IR-04": {
     "fa": "اصفهان",
-    "en": "esfahan"
+    "en": "esfahan",
+    "cities": {
+      "IR-0401": {
+        "fa": "آران و بیدگل",
+        "en": "aran-bidgol"
+      },
+      "IR-0402": {
+        "fa": "اردستان",
+        "en": "ardestan"
+      },
+      "IR-0403": {
+        "fa": "اصفهان",
+        "en": "esfahan"
+      },
+      "IR-0404": {
+        "fa": "برخوار",
+        "en": "barkhar"
+      },
+      "IR-0405": {
+        "fa": "بوئین و میاندشت",
+        "en": "boein-miandasht"
+      },
+      "IR-0406": {
+        "fa": "تیران و کرون",
+        "en": "tiran-koroun"
+      },
+      "IR-0407": {
+        "fa": "چادگان",
+        "en": "chadegan"
+      },
+      "IR-0408": {
+        "fa": "خمینی‌شهر",
+        "en": "khomeini-shahr"
+      },
+      "IR-0409": {
+        "fa": "خوانسار",
+        "en": "khansar"
+      },
+      "IR-0410": {
+        "fa": "سمیرم",
+        "en": "semirom"
+      },
+      "IR-0411": {
+        "fa": "شاهین‌شهر و میمه",
+        "en": "shahin-shahr-meyme"
+      },
+      "IR-0412": {
+        "fa": "شهرضا",
+        "en": "shahr-reza"
+      },
+      "IR-0413": {
+        "fa": "دهاقان",
+        "en": "dehaqan"
+      },
+      "IR-0414": {
+        "fa": "فریدن",
+        "en": "fereidan"
+      },
+      "IR-0415": {
+        "fa": "فریدون‌شهر",
+        "en": "fereydoun-shahr"
+      },
+      "IR-0416": {
+        "fa": "فلاورجان",
+        "en": "felavarjan"
+      },
+      "IR-0417": {
+        "fa": "کاشان",
+        "en": "kashan"
+      },
+      "IR-0418": {
+        "fa": "گلپایگان",
+        "en": "golpayegan"
+      },
+      "IR-0419": {
+        "fa": "لنجان",
+        "en": "lenjan"
+      },
+      "IR-0420": {
+        "fa": "مبارکه",
+        "en": "mobarake"
+      },
+      "IR-0421": {
+        "fa": "نایین",
+        "en": "naien"
+      },
+      "IR-0422": {
+        "fa": "نجف‌آباد",
+        "en": "najaf-abad"
+      },
+      "IR-0423": {
+        "fa": "نطنز",
+        "en": "natanz"
+      }
+    }
   },
   "IR-05": {
     "fa": "البرز",
-    "en": "alborz"
+    "en": "alborz",
+    "cities": {
+      "IR-0501": {
+        "fa": "اشتهارد",
+        "en": "eshtehard"
+      },
+      "IR-0502": {
+        "fa": "ساوجبلاغ",
+        "en": "savojbolaq"
+      },
+      "IR-0503": {
+        "fa": "طالقان",
+        "en": "taleqan"
+      },
+      "IR-0504": {
+        "fa": "فردیس",
+        "en": "fardis"
+      },
+      "IR-0505": {
+        "fa": "کرج",
+        "en": "karaj"
+      },
+      "IR-0506": {
+        "fa": "نظرآباد",
+        "en": "nazar-abad"
+      }
+    }
   },
   "IR-06": {
     "fa": "ایلام",
-    "en": "ilam"
+    "en": "ilam",
+    "cities": {
+      "IR-0601": {
+        "fa": "آبدانان",
+        "en": "abdanan"
+      },
+      "IR-0602": {
+        "fa": "ایلام",
+        "en": "ilam"
+      },
+      "IR-0603": {
+        "fa": "ایوان",
+        "en": "ivan"
+      },
+      "IR-0604": {
+        "fa": "بدره",
+        "en": "badreh"
+      },
+      "IR-0605": {
+        "fa": "چرداول",
+        "en": "chardavol"
+      },
+      "IR-0606": {
+        "fa": "دره شهر",
+        "en": "dareh-shahr"
+      },
+      "IR-0607": {
+        "fa": "دهلران",
+        "en": "dehloran"
+      },
+      "IR-0608": {
+        "fa": "سیروان",
+        "en": "sirvan"
+      },
+      "IR-0609": {
+        "fa": "ملکشاهی",
+        "en": "malekshahi"
+      },
+      "IR-0610": {
+        "fa": "مهران",
+        "en": "mehran"
+      }
+    }
   },
   "IR-07": {
     "fa": "بوشهر",
-    "en": "bushehr"
+    "en": "bushehr",
+    "cities": {
+      "IR-0701": {
+        "fa": "بوشهر",
+        "en": "bushehr"
+      },
+      "IR-0702": {
+        "fa": "تنگستان",
+        "en": "tangestan"
+      },
+      "IR-0703": {
+        "fa": "جم",
+        "en": "jam"
+      },
+      "IR-0704": {
+        "fa": "دشتستان",
+        "en": "dashtestan"
+      },
+      "IR-0705": {
+        "fa": "دشتی",
+        "en": "dashti"
+      },
+      "IR-0706": {
+        "fa": "دیر",
+        "en": "dir"
+      },
+      "IR-0707": {
+        "fa": "دیلم",
+        "en": "deylam"
+      },
+      "IR-0708": {
+        "fa": "عسلویه",
+        "en": "asaloye"
+      },
+      "IR-0709": {
+        "fa": "کنگان",
+        "en": "kangan"
+      },
+      "IR-0710": {
+        "fa": "گناوه",
+        "en": "genaveh"
+      }
+    }
   },
   "IR-08": {
     "fa": "تهران",
-    "en": "tehran"
+    "en": "tehran",
+    "cities": {
+      "IR-0801":{
+        "fa": "اسلامشهر",
+        "en": "eslam-shahr"
+      },
+      "IR-0802": {
+        "fa": "بهارستان",
+        "en": "baharestan"
+      },
+      "IR-0803": {
+        "fa": "پاکدشت",
+        "en": "pakdasht"
+      },
+      "IR-0804": {
+        "fa": "پردیس",
+        "en": "pardis"
+      },
+      "IR-0805": {
+        "fa": "پیشوا",
+        "en": "pishva"
+      },
+      "IR-0806": {
+        "fa": "تهران",
+        "en": "tehran"
+      },
+      "IR-0807": {
+        "fa": "دماوند",
+        "en": "damavand"
+      },
+      "IR-0809": {
+        "fa": "رباط‌کریم",
+        "en": "robat-karim"
+      },
+      "IR-0810": {
+        "fa": "ری",
+        "en": "rey"
+      },
+      "IR-0811": {
+        "fa": "شمیرانات",
+        "en": "shemiranat"
+      },
+      "IR-0812": {
+        "fa": "شهریار",
+        "en": "shahriar"
+      },
+      "IR-0813": {
+        "fa": "قدس",
+        "en": "qods"
+      },
+      "IR-0814": {
+        "fa": "قرچک",
+        "en": "qarchak"
+      },
+      "IR-0815": {
+        "fa": "فیروزکوه",
+        "en": "firozkooh"
+      },
+      "IR-0816": {
+        "fa": "ملارد",
+        "en": "malard"
+      },
+      "IR-0814": {
+        "fa": "ورامین",
+        "en": "varamin"
+      }
+    }
   },
   "IR-09": {
     "fa": "چهارمحال و بختیاری",
-    "en": "chahar-mahall-bakhtiari"
+    "en": "chahar-mahall-bakhtiari",
+    "cities": {
+      "IR-0901": {
+        "fa": "اردل",
+        "en": "ardal"
+      },
+      "IR-0902": {
+        "fa": "بروجن",
+        "en": "borojen"
+      },
+      "IR-0903": {
+        "fa": "بن",
+        "en": "bon"
+      },
+      "IR-0904": {
+        "fa": "سامان",
+        "en": "saman"
+      },
+      "IR-0905": {
+        "fa": "شهرکرد",
+        "en": "shahr-kord"
+      },
+      "IR-0906": {
+        "fa": "فارسان",
+        "en": "farsan"
+      },
+      "IR-0907": {
+        "fa": "کوهرنگ",
+        "en": "koohrang"
+      },
+      "IR-0908": {
+        "fa": "کیار",
+        "en": "kiar"
+      },
+      "IR-0909": {
+        "fa": "لردگان",
+        "en": "lordegan"
+      }
+    }
   },
   "IR-10": {
     "fa": "خراسان جنوبی",
-    "en": "khorasan-jonoubi"
+    "en": "khorasan-jonoubi",
+    "cities": {
+      "IR-1001": {
+        "fa": "بیرجند",
+        "en": "birjand"
+      },
+      "IR-1002": {
+        "fa": "فردوس",
+        "en": "ferdos"
+      },
+      "IR-1003": {
+        "fa": "طبس",
+        "en": "tabas"
+      },
+      "IR-1004": {
+        "fa": "قائنات",
+        "en": "qaenat"
+      },
+      "IR-1005": {
+      "fa": "نهبندان",
+        "en": "nehbandan"
+      },
+      "IR-1006": {
+        "fa": "سربیشه",
+        "en": "sarbisheh"
+      },
+      "IR-1007": {
+        "fa": "درمیان",
+        "en": "darmiyan"
+      },
+      "IR-1008": {
+        "fa": "سرایان",
+        "en": "sarayan"
+      },
+      "IR-1009": {
+        "fa": "بشرویه",
+        "en": "boshruyeh"
+      },
+      "IR-1010": {
+        "fa": "زیرکوه",
+        "en": "zirkooh"
+      },
+      "IR-1010": {
+        "fa": "خوسف",
+        "en": "khusf"
+      }
+    }
   },
   "IR-11": {
     "fa": "خراسان رضوی",
-    "en": "khorasan-razavi"
+    "en": "khorasan-razavi",
+    "cities": {
+      "IR-1101": {
+        "fa": "باخزر",
+        "en": "bakhazar"
+      },
+      "IR-1102": {
+        "fa": "بجستان",
+        "en": "bajestan"
+      },
+      "IR-1103": {
+        "fa": "بردسکن",
+        "en": "bardaskan"
+      },
+      "IR-1104": {
+        "fa": "بینالود",
+        "en": "binalood"
+      },
+      "IR-1105": {
+        "fa": "تایباد",
+        "en": "taybad"
+      },
+      "IR-1106": {
+        "fa": "تربت جام",
+        "en": "torbat-jam"
+      },
+      "IR-1107": {
+        "fa": "تربت حیدریه",
+        "en": "torbat-heydarieh"
+      },
+      "IR-1108": {
+        "fa": "جغتای",
+        "en": "joghtay"
+      },
+      "IR-1109": {
+        "fa": "جوین",
+        "en": "joveyn"
+      },
+      "IR-1110": {
+        "fa": "چناران",
+        "en": "chenaran"
+      },
+      "IR-1111": {
+        "fa": "خلیل آباد",
+        "en": "khalil-abad"
+      },
+      "IR-1112": {
+        "fa": "خواف",
+        "en": "khaf"
+      },
+      "IR-1113": {
+        "fa": "خوشاب",
+        "en": "khoushab"
+      },
+      "IR-1114": {
+        "fa": "داورزن",
+        "en": "davarzan"
+      },
+      "IR-1115": {
+        "fa": "درگز",
+        "en": "dargaz"
+      },
+      "IR-1116": {
+        "fa": "رشتخوار",
+        "en": "rashtkhar"
+      },
+      "IR-1117": {
+        "fa": "زاوه",
+        "en": "zaveh"
+      },
+      "IR-1118": {
+        "fa": "زبرخوان",
+        "en": "zebrkhan"
+      },
+      "IR-1119": {
+        "fa": "سبزوار",
+        "en": "sabzevar"
+      },
+      "IR-1120": {
+        "fa": "سرخس",
+        "en": "sarakhs"
+      },
+      "IR-1121": {
+        "fa": "ششتمد",
+        "en": "sheshtamad"
+      },
+      "IR-1122": {
+        "fa": "صالح آباد",
+        "en": "saleh-abad"
+      },
+      "IR-1123": {
+        "fa": "فریمان",
+        "en": "fariman"
+      },
+      "IR-1124": {
+        "fa": "فیروزه",
+        "en": "firoozeh"
+      },
+      "IR-1125": {
+        "fa": "قوچان",
+        "en": "ghoochan"
+      },
+      "IR-1126": {
+        "fa": "کاشمر",
+        "en": "kashmar"
+      },
+      "IR-1127": {
+        "fa": "کلات",
+        "en": "kalat"
+      },
+      "IR-1128": {
+        "fa": "کوهسرخ",
+        "en": "kouhsorkh"
+      },
+      "IR-1129": {
+        "fa": "گناباد",
+        "en": "gonabad"
+      },
+      "IR-1130": {
+        "fa": "مشهد",
+        "en": "mashhad"
+      },
+      "IR-1131": {
+        "fa": "مه ولات",
+        "en": "mah-valat"
+      },
+      "IR-1132": {
+        "fa": "نشیابور",
+        "en": "neyshaboor"
+      }
+    }
   },
   "IR-12": {
     "fa": "خراسان شمالی",
-    "en": "khorasan-shomali"
+    "en": "khorasan-shomali",
+    "cities": {
+      "IR-1201": {
+        "fa": "اسفراین",
+        "en": "esfarayen"
+      },
+      "IR-1202": {
+        "fa": "بجنورد",
+        "en": "bojnord"
+      },
+      "IR-1203": {
+        "fa": "جاجرم",
+        "en": "jajram"
+      },
+      "IR-1204": {
+        "fa": "راز و جرگلان",
+        "en": "raz-jargalan"
+      },
+      "IR-1205": {
+        "fa": "شیروان",
+        "en": "shirvan"
+      },
+      "IR-1206": {
+        "fa": "فاروج",
+        "en": "faroj"
+      },
+      "IR-1207": {
+        "fa": "گرمه",
+        "en": "garmeh"
+      },
+      "IR-1208": {
+        "fa": "مانه و سلمقان",
+        "en": "maneh-salamqan"
+      }
+    }
   },
   "IR-13": {
     "fa": "خوزستان",
-    "en": "khuszestan"
+    "en": "khuszestan",
+    "cities": {
+      "IR-1301": {
+        "fa": "اهواز",
+        "en": "ahvaz"
+      },
+      "IR-1302": {
+        "fa": "abadan",
+        "en": "آبادان"
+      },
+      "IR-1303": {
+        "fa": "آغاجاری",
+        "en": "aqajari"
+      },
+      "IR-1304": {
+        "fa": "امیدیه",
+        "en": "omidieh"
+      },
+      "IR-1305": {
+        "fa": "اندیکا",
+        "en": "andika"
+      },
+      "IR-1306": {
+        "fa": "اندیمشک",
+        "en": "andimeshk"
+      },
+      "IR-1307": {
+        "fa": "ایذه",
+        "en": "izeh"
+      },
+      "IR-1308": {
+        "fa": "باغ ملک",
+        "en": "baqmalek"
+      },
+      "IR-1309": {
+        "fa": "باوی",
+        "en": "bavi"
+      },
+      "IR-1310": {
+        "fa": "بندر ماهشهر",
+        "en": "bandar-mahshar"
+      },
+      "IR-1311": {
+        "fa": "بهبهان",
+        "en": "behbahan"
+      },
+      "IR-1312": {
+        "fa": "حمیدیه",
+        "en": "hamidieh"
+      },
+      "IR-1313": {
+        "fa": "خرمشهر",
+        "en": "khoramshahr"
+      },
+      "IR-1314": {
+        "fa": "دزفول",
+        "en": "dezfool"
+      },
+      "IR-1315": {
+        "fa": "دشت آزادگان",
+        "en": "dasht-azadegan"
+      },
+      "IR-1316": {
+        "fa": "رامشیر",
+        "en": "ramshir"
+      },
+      "IR-1317": {
+        "fa": "رامهرمز",
+        "en": "ramhormoz"
+      },
+      "IR-1318": {
+        "fa": "شادگان",
+        "en": "shadegan"
+      },
+      "IR-1319": {
+        "fa": "شوش",
+        "en": "shoosh"
+      },
+      "IR-1320": {
+        "fa": "شوشتر",
+        "en": "shooshtar"
+      },
+      "IR-1321": {
+        "fa": "کارون",
+        "en": "karoon"
+      },
+      "IR-1322": {
+        "fa": "گتوند",
+        "en": "gotvand"
+      },
+      "IR-1323": {
+        "fa": "لالی",
+        "en": "lali"
+      },
+      "IR-1324": {
+        "fa": "مسجدسلیمان",
+        "en": "masjed-soleyman"
+      },
+      "IR-1325": {
+        "fa": "هفتکل",
+        "en": "haftkal"
+      },
+      "IR-1326": {
+        "fa": "هندیجان",
+        "en": "hendijan"
+      },
+      "IR-1327": {
+        "fa": "هویزه",
+        "en": "hoveyzeh"
+      }
+    }
   },
   "IR-14": {
     "fa": "زنجان",
-    "en": "zanjan"
+    "en": "zanjan",
+    "cities": {
+      "IR-1401": {
+        "fa": "ابهر",
+        "en": "abhar"
+      },
+      "IR-1402": {
+        "fa": "ایجرود",
+        "en": "ijrood"
+      },
+      "IR-1403": {
+        "fa": "خدابنده",
+        "en": "khodabandeh"
+      },
+      "IR-1404": {
+        "fa": "خرمدره",
+        "en": "khoramdareh"
+      },
+      "IR-1405": {
+        "fa": "زنجان",
+        "en": "zanjan"
+      },
+      "IR-1406": {
+        "fa": "سلطانیه",
+        "en": "soltanieh"
+      },
+      "IR-1407": {
+        "fa": "طارم",
+        "en": "tarom"
+      },
+      "IR-1408": {
+        "fa": "ماهنشان",
+        "en": "mahneshan"
+      }
+    }
   },
   "IR-15": {
     "fa": "سمنان",
-    "en": "semnan"
+    "en": "semnan",
+    "cities": {
+      "IR_1501": {
+        "fa": "آرادان",
+        "en": "aradan"
+      },
+      "IR_1502": {
+        "fa": "دامغان",
+        "en": "damqan"
+      },
+      "IR_1503": {
+        "fa": "سرخه",
+        "en": "sorkheh"
+      },
+      "IR_1504": {
+        "fa": "سمنان",
+        "en": "semnan"
+      },
+      "IR_1505": {
+        "fa": "شاهرود",
+        "en": "shahrood"
+      },
+      "IR_1506": {
+        "fa": "گرمسار",
+        "en": "garmsar"
+      },
+      "IR_1507": {
+        "fa": "مهدی‌شهر",
+        "en": "mehdi-shahr"
+      },
+      "IR_1508": {
+        "fa": "میامی",
+        "en": "meyami"
+      }
+    }
   },
   "IR-16": {
     "fa": "سیستان و بلوچستان",
-    "en": "sistan-baluchestan"
+    "en": "sistan-baluchestan",
+    "cities": {
+      "IR-1601": {
+        "fa": "ایرانشهر",
+        "en": "iranshahr"
+      },
+      "IR-1602": {
+        "fa": "بمپور",
+        "en": "bompoor"
+      },
+      "IR-1603": {
+        "fa": "تفتان",
+        "en": "taftan"
+      },
+      "IR-1604": {
+        "fa": "چابهار",
+        "en": "chabahar"
+      },
+      "IR-1605": {
+        "fa": "خاش",
+        "en": "khash"
+      },
+      "IR-1606": {
+        "fa": "دشتیاری",
+        "en": "dashtyari"
+      },
+      "IR-1607": {
+        "fa": "دلگان",
+        "en": "delegan"
+      },
+      "IR-1608": {
+        "fa": "راسک",
+        "en": "rask"
+      },
+      "IR-1609": {
+        "fa": "زابل",
+        "en": "zabol"
+      },
+      "IR-1610": {
+        "fa": "زاهدان",
+        "en": "zahedan"
+      },
+      "IR-1611": {
+        "fa": "زهک",
+        "en": "zahak"
+      },
+      "IR-1612": {
+        "fa": "سراوان",
+        "en": "saravan"
+      },
+      "IR-1613": {
+        "fa": "سرباز",
+        "en": "sarbaz"
+      },
+      "IR-1614": {
+        "fa": "سیب و سوران",
+        "en": "sib-souran"
+      },
+      "IR-1615": {
+        "fa": "فنوج",
+        "en": "fonouj"
+      },
+      "IR-1616": {
+        "fa": "قصرقند",
+        "en": "qasr-qand"
+      },
+      "IR-1617": {
+        "fa": "کنارک",
+        "en": "kenarak"
+      },
+      "IR-1618": {
+        "fa": "مهرستان",
+        "en": "mehrestan"
+      },
+      "IR-1619": {
+        "fa": "میرجاوه",
+        "en": "mirjaveh"
+      },
+      "IR-1620": {
+        "fa": "نیکشهر",
+        "en": "nikshahr"
+      },
+      "IR-1621": {
+        "fa": "نیمروز",
+        "en": "nimrooz"
+      },
+      "IR-1622": {
+        "fa": "هامون",
+        "en": "hamoon"
+      },
+      "IR-1623": {
+        "fa": "هیرمند",
+        "en": "hirmand"
+      }
+    }
   },
   "IR-17": {
     "fa": "فارس",
-    "en": "fars"
+    "en": "fars",
+    "cities": {
+      "IR-1701": {
+        "fa": "آباده",
+        "en": "abadeh"
+      },
+      "IR-1702": {
+        "fa": "ارسنجان",
+        "en": "arsanjan"
+      },
+      "IR-1703": {
+        "fa": "استهبان",
+        "en": "estehban"
+      },
+      "IR-1704": {
+        "fa": "اقلید",
+        "en": "eqlid"
+      },
+      "IR-1705": {
+        "fa": "بوانات",
+        "en": "bavanat"
+      },
+      "IR-1706": {
+        "fa": "پاسارگاد",
+        "en": "pasargad"
+      },
+      "IR-1707": {
+        "fa": "جهرم",
+        "en": "jahrom"
+      },
+      "IR-1708": {
+        "fa": "خرامه",
+        "en": "kharameh"
+      },
+      "IR-1709": {
+        "fa": "خرمبید",
+        "en": "khorambid"
+      },
+      "IR-1710": {
+        "fa": "خنج",
+        "en": "khonj"
+      },
+      "IR-1711": {
+        "fa": "داراب",
+        "en": "darab"
+      },
+      "IR-1712": {
+        "fa": "رستم",
+        "en": "rostam"
+      },
+      "IR-1713": {
+        "fa": "زرین دشت",
+        "en": "zarin-dasht"
+      },
+      "IR-1714": {
+        "fa": "سپیدان",
+        "en": "sepidan"
+      },
+      "IR-1715": {
+        "fa": "سروستان",
+        "en": "sarvestan"
+      },
+      "IR-1716": {
+        "fa": "شیراز",
+        "en": "shiraz"
+      },
+      "IR-1717": {
+        "fa": "فراشبند",
+        "en": "farashband"
+      },
+      "IR-1718": {
+        "fa": "فسا",
+        "en": "fesa"
+      },
+      "IR-1719": {
+        "fa": "فیروزآباد",
+        "en": "firoz-abad"
+      },
+      "IR-1720": {
+        "fa": "قیرو کارزین",
+        "en": "qiro-karzin"
+      },
+      "IR-1721": {
+        "fa": "کوار",
+        "en": "kavar"
+      },
+      "IR-1722": {
+        "fa": "کازرون",
+        "en": "kazeroon"
+      },
+      "IR-1723": {
+        "fa": "گراش",
+        "en": "gerash"
+      },
+      "IR-1724": {
+        "fa": "لارستان",
+        "en": "larestan"
+      },
+      "IR-1725": {
+        "fa": "لامرد",
+        "en": "lamerd"
+      },
+      "IR-1726": {
+        "fa": "مرودشت",
+        "en": "marvdasht"
+      },
+      "IR-1727": {
+        "fa": "ممسنی",
+        "en": "mamasani"
+      },
+      "IR-1728": {
+        "fa": "مهر",
+        "en": "mehr"
+      },
+      "IR-1729": {
+        "fa": "نی ریز",
+        "en": "neyriz"
+      }
+    }
   },
   "IR-18": {
     "fa": "قزوین",
-    "en": "qazvin"
+    "en": "qazvin",
+    "cities": {
+      "IR-1801": {
+        "fa": "آبیک",
+        "en": "abik"
+      },
+      "IR-1802": {
+        "fa": "آوج",
+        "en": "avaj"
+      },
+      "IR-1803": {
+        "fa": "البرز",
+        "en": "alborz"
+      },
+      "IR-1804": {
+        "fa": "بوئین زهرا",
+        "en": "boein-zahra"
+      },
+      "IR-1805": {
+        "fa": "تاکستان",
+        "en": "takestan"
+      },
+      "IR-1806": {
+        "fa": "قزوین",
+        "en": "qazvin"
+      }
+    }
   },
   "IR-19": {
     "fa": "قم",
-    "en": "qom"
+    "en": "qom",
+    "cities": {
+      "IR-1901": {
+        "fa": "قم",
+        "en": "qom"
+      }
+    }
   },
   "IR-20": {
     "fa": "کردستان",
-    "en": "kordestan"
+    "en": "kordestan",
+    "cities": {
+      "IR-2001": {
+        "fa": "بانه",
+        "en": "baneh"
+      },
+      "IR-2002": {
+        "fa": "بیجار",
+        "en": "bijar"
+      },
+      "IR-2003": {
+        "fa": "دهگلان",
+        "en": "dehgalan"
+      },
+      "IR-2004": {
+        "fa": "دیواندره",
+        "en": "divandareh"
+      },
+      "IR-2005": {
+        "fa": "سروآباد",
+        "en": "sarv-abad"
+      },
+      "IR-2006": {
+        "fa": "سقز",
+        "en": "saqez"
+      },
+      "IR-2007": {
+        "fa": "سنندج",
+        "en": "sanandaj"
+      },
+      "IR-2008": {
+        "fa": "قروه",
+        "en": "qorveh"
+      },
+      "IR-2009": {
+        "fa": "کامیاران",
+        "en": "kamyaran"
+      },
+      "IR-2001": {
+        "fa": "مریوان",
+        "en": "marivan"
+      }
+    }
   },
   "IR-21": {
     "fa": "کرمان",
-    "en": "kerman"
+    "en": "kerman",
+    "cities": {
+      "IR-2101": {
+        "fa": "ارزوئیه",
+        "en": "arzoieh"
+      },
+      "IR-2102": {
+        "fa": "انار",
+        "en": "anar"
+      },
+      "IR-2103": {
+        "fa": "بافت",
+        "en": "baft"
+      },
+      "IR-2104": {
+        "fa": "بردسیر",
+        "en": "bardsir"
+      },
+      "IR-2105": {
+        "fa": "بم",
+        "en": "bam"
+      },
+      "IR-2106": {
+        "fa": "جیرفت",
+        "en": "jiroft"
+      },
+      "IR-2107": {
+        "fa": "رابر",
+        "en": "rabar"
+      },
+      "IR-2108": {
+        "fa": "راور",
+        "en": "ravar"
+      },
+      "IR-2109": {
+        "fa": "رفسنجان",
+        "en": "rafsanjan"
+      },
+      "IR-2110": {
+        "fa": "رودبار",
+        "en": "roodbar"
+      },
+      "IR-2111": {
+        "fa": "ریگان",
+        "en": "rigan"
+      },
+      "IR-2112": {
+        "fa": "زرند",
+        "en": "zarand"
+      },
+      "IR-2113": {
+        "fa": "سیرجان",
+        "en": "sirjan"
+      },
+      "IR-2114": {
+        "fa": "شهربابک",
+        "en": "shahr-babak"
+      },
+      "IR-2115": {
+        "fa": "عنبرآباد",
+        "en": "anbar-abad"
+      },
+      "IR-2116": {
+        "fa": "فاریاب",
+        "en": "faryab"
+      },
+      "IR-2117": {
+        "fa": "فهرج",
+        "en": "fahraj"
+      },
+      "IR-2118": {
+        "fa": "قلعه گنج",
+        "en": "qale-ganj"
+      },
+      "IR-2119": {
+        "fa": "کرمان",
+        "en": "kerman"
+      },
+      "IR-2120": {
+        "fa": "کوهبنان",
+        "en": "koohbanan"
+      },
+      "IR-2121": {
+        "fa": "کهنوج",
+        "en": "kahnoj"
+      },
+      "IR-2122": {
+        "fa": "منوجان",
+        "en": "manoojan"
+      },
+      "IR-2123": {
+        "fa": "نرماشیر",
+        "en": "narmashir"
+      }
+    }
   },
   "IR-22": {
     "fa": "کرمانشاه",
-    "en": "kermanshah"
+    "en": "kermanshah",
+    "cities": {
+      "IR-2201": {
+        "fa": "اسلام آباد غرب",
+        "en": "eslam-abad-qarb"
+      },
+      "IR-2202": {
+        "fa": "پاوه",
+        "en": "paveh"
+      },
+      "IR-2203": {
+        "fa": "ثلاث باباجانی",
+        "en": "salas-babajani"
+      },
+      "IR-2204": {
+        "fa": "جوانرود",
+        "en": "javanrood"
+      },
+      "IR-2205": {
+        "fa": "دالاهو",
+        "en": "dalahoo"
+      },
+      "IR-2206": {
+        "fa": "سرپلذهاب",
+        "en": "sar-pol-zahab"
+      },
+      "IR-2207": {
+        "fa": "سنقروکلیایی",
+        "en": "sonqor"
+      },
+      "IR-2208": {
+        "fa": "صحنه",
+        "en": "sahneh"
+      },
+      "IR-2209": {
+        "fa": "روانسر",
+        "en": "ravansar"
+      },
+      "IR-2210": {
+        "fa": "کرمانشاه",
+        "en": "kermanshah"
+      },
+      "IR-2211": {
+        "fa": "کنگاور",
+        "en": "kangavar"
+      },
+      "IR-2212": {
+        "fa": "گیلانغرب",
+        "en": "gilan-qarb"
+      },
+      "IR-2213": {
+        "fa": "قصرشیرین",
+        "en": "qasr-shirin"
+      },
+      "IR-2214": {
+        "fa": "هریس",
+        "en": "haris"
+      }
+    }
   },
   "IR-23": {
     "fa": "کهگیلویه و بویراحمد",
-    "en": "kohgiluye-boyer-ahmad"
+    "en": "kohgiluye-boyer-ahmad",
+    "cities": {
+      "IR-2301": {
+        "fa": "باشت",
+        "en": "basht"
+      },
+      "IR-2302": {
+        "fa": "بویراحمد",
+        "en": "boyer-ahmad"
+      },
+      "IR-2303": {
+        "fa": "بهمئی",
+        "en": "bahmai"
+      },
+      "IR-2304": {
+        "fa": "چرام",
+        "en": "choram"
+      },
+      "IR-2305": {
+        "fa": "دنا",
+        "en": "dena"
+      },
+      "IR-2306": {
+        "fa": "کهگیلویه",
+        "en": "kohgiluye"
+      },
+      "IR-2307": {
+        "fa": "لنده",
+        "en": "lendeh"
+      },
+      "IR-2308": {
+        "fa": "مارگون",
+        "en": "margoon"
+      }
+    }
   },
   "IR-24": {
     "fa": "گلستان",
-    "en": "golestan"
+    "en": "golestan",
+    "cities": {
+      "IR-2401": {
+        "fa": "آزادشهر",
+        "en": "azad-shahr"
+      },
+      "IR-2402": {
+        "fa": "آغ‌قلا",
+        "en": "aq-qala"
+      },
+      "IR-2403": {
+        "fa": "بندرگز",
+        "en": "bandar-gaz"
+      },
+      "IR-2404": {
+        "fa": "ترکمن",
+        "en": "torkaman"
+      },
+      "IR-2405": {
+        "fa": "رامیان",
+        "en": "ramian"
+      },
+      "IR-2406": {
+        "fa": "نبد کاووس",
+        "en": "کاووس"
+      },
+      "IR-2407": {
+        "fa": "علی‌آباد",
+        "en": "ali-abad"
+      },
+      "IR-2408": {
+        "fa": "کردکوی",
+        "en": "kord-kooy"
+      },
+      "IR-2409": {
+        "fa": "کلاله",
+        "en": "kolaleh"
+      },
+      "IR-2410": {
+        "fa": "گالیکش",
+        "en": "galikesh"
+      },
+      "IR-2411": {
+        "fa": "گرگان",
+        "en": "gorgan"
+      },
+      "IR-2412": {
+        "fa": "گمیشان",
+        "en": "gamishan"
+      },
+      "IR-2413": {
+        "fa": "مراوه تپه",
+        "en": "maraveh-tapeh"
+      },
+      "IR-2414": {
+        "fa": "مینودشت",
+        "en": "minoodasht"
+      }
+    }
   },
   "IR-25": {
     "fa": "گیلان",
-    "en": "gilan"
+    "en": "gilan",
+    "cities" : {
+      "IR-2501": {
+        "fa": "آستارا",
+        "en": "astara"
+      },
+      "IR-2502": {
+        "fa": "آستانه اشرفیه",
+        "en": "ashrafieh"
+      },
+      "IR-2503": {
+        "fa": "املش",
+        "en": "amlash"
+      },
+      "IR-2504": {
+        "fa": "بندر انزلی",
+        "en": "bandar-anzali"
+      },
+      "IR-2505": {
+        "fa": "رشت",
+        "en": "rasht"
+      },
+      "IR-2506": {
+        "fa": "رضوانشهر",
+        "en": "rezvan-shahr"
+      },
+      "IR-2507": {
+        "fa": "رودبار",
+        "en": "roodbar"
+      },
+      "IR-2508": {
+        "fa": "رودسر",
+        "en": "roudsar"
+      },
+      "IR-2509": {
+        "fa": "سیاهکل",
+        "en": "siahkal"
+      },
+      "IR-2510": {
+        "fa": "شفت",
+        "en": "shaft"
+      },
+      "IR-2511": {
+        "fa": "تالش",
+        "en": "talesh"
+      },
+      "IR-2512": {
+        "fa": "صومعه‌سرا",
+        "en": "some-sara"
+      },
+      "IR-2513": {
+        "fa": "فومن",
+        "en": "fooman"
+      },
+      "IR-2514": {
+        "fa": "لاهیجان",
+        "en": "lahijan"
+      },
+      "IR-2515": {
+        "fa": "لنگرود",
+        "en": "langrood"
+      },
+      "IR-2516": {
+        "fa": "ماسال",
+        "en": "masal"
+      }
+    }
   },
   "IR-26": {
     "fa": "لرستان",
-    "en": "lorestan"
+    "en": "lorestan",
+    "cities": {
+      "IR-2601": {
+        "fa": "ازنا",
+        "en": "azna"
+      },
+      "IR-2602": {
+        "fa": "الشتر",
+        "en": "aleshtar"
+      },
+      "IR-2603": {
+        "fa": "الیگودرز",
+        "en": "aligoodarz"
+      },
+      "IR-2604": {
+        "fa": "بروجرد",
+        "en": "borojerd"
+      },
+      "IR-2605": {
+        "fa": "پل‌دختر",
+        "en": "pole-dokhtar"
+      },
+      "IR-2606": {
+        "fa": "چگنی",
+        "en": "chegeni"
+      },
+      "IR-2607": {
+        "fa": "خرم‌آباد",
+        "en": "khoram-abad"
+      },
+      "IR-2608": {
+        "fa": "دلفان",
+        "en": "delphan"
+      },
+      "IR-2609": {
+        "fa": "دورود",
+        "en": "dorood"
+      },
+      "IR-2610": {
+        "fa": "رومشکان",
+        "en": "rumeshkan"
+      },
+      "IR-2611": {
+        "fa": "کوهدشت",
+        "en": "koohdasht"
+      }
+    }
   },
   "IR-27": {
     "fa": "مازندران",
-    "en": "mazandaran"
+    "en": "mazandaran",
+    "cities": {
+      "IR-2701": {
+        "fa": "آمل",
+        "en": "amol"
+      },
+      "IR-2702": {
+        "fa": "بابل",
+        "en": "babol"
+      },
+      "IR-2703": {
+        "fa": "بابلسر",
+        "en": "babolsar"
+      },
+      "IR-2704": {
+        "fa": "بهشهر",
+        "en": "behshahr"
+      },
+      "IR-2705": {
+        "fa": "تنکابن",
+        "en": "tonekabon"
+      },
+      "IR-2706": {
+        "fa": "جویبار",
+        "en": "jooybar"
+      },
+      "IR-2707": {
+        "fa": "چالوس",
+        "en": "chaloos"
+      },
+      "IR-2708": {
+        "fa": "رامسر",
+        "en": "ramsar"
+      },
+      "IR-2709": {
+        "fa": "ساری",
+        "en": "sari"
+      },
+      "IR-2710": {
+        "fa": "سوادکوه",
+        "en": "savad-kooh"
+      },
+      "IR-2711": {
+        "fa": "سوادکوه شمالی",
+        "en": "savad-kooh-shomali"
+      },
+      "IR-2712": {
+        "fa": "سی‌مرغ",
+        "en": "simorgh"
+      },
+      "IR-2713": {
+        "fa": "عباس‌آباد",
+        "en": "abas-abad"
+      },
+      "IR-2714": {
+        "fa": "فریدونکنار",
+        "en": "fereydon-kenar"
+      },
+      "IR-2715": {
+        "fa": "قائم‌شهر",
+        "en": "qaem-shahr"
+      },
+      "IR-2716": {
+        "fa": "کلاردشت",
+        "en": "kelardasht"
+      },
+      "IR-2717": {
+        "fa": "گلوگاه",
+        "en": "gelogah"
+      },
+      "IR-2718": {
+        "fa": "محمود‌آباد",
+        "en": "mahmood-abad"
+      },
+      "IR-2719": {
+        "fa": "میاندرود",
+        "en": "mian-dorood"
+      },
+      "IR-2720": {
+        "fa": "نکا",
+        "en": "neka"
+      },
+      "IR-2721": {
+        "fa": "نور",
+        "en": "noor"
+      },
+      "IR-2722": {
+        "fa": "نوشهر",
+        "en": "noshahr"
+      }
+    }
   },
   "IR-28": {
     "fa": "مرکزی",
-    "en": "markazi"
+    "en": "markazi",
+    "cities": {
+      "IR-2801": {
+        "fa": "آشتیان",
+        "en": "ashtian"
+      },
+      "IR-2802": {
+        "fa": "اراک",
+        "en": "arak"
+      },
+      "IR-2803": {
+        "fa": "تفرش",
+        "en": "tafresh"
+      },
+      "IR-2804": {
+        "fa": "خمیجان",
+        "en": "khomeyjan"
+      },
+      "IR-2805": {
+        "fa": "خمین",
+        "en": "khomeyn"
+      },
+      "IR-2806": {
+        "fa": "خنداب",
+        "en": "kondab"
+      },
+      "IR-2807": {
+        "fa": "دلیجان",
+        "en": "delijan"
+      },
+      "IR-2808": {
+        "fa": "زرندیه",
+        "en": "zarandieh"
+      },
+      "IR-2809": {
+        "fa": "ساوه",
+        "en": "saveh"
+      },
+      "IR-2810": {
+        "fa": "شازند",
+        "en": "shazand"
+      },
+      "IR-2811": {
+        "fa": "فراهان",
+        "en": "farahan"
+      },
+      "IR-2812": {
+        "fa": "محلات",
+        "en": "mahalat"
+      }
+    }
   },
   "IR-29": {
     "fa": "هرمزگان",
-    "en": "hormozgan"
+    "en": "hormozgan",
+    "cities": {
+      "IR-2901": {
+        "fa": "ابوموسی",
+        "en": "abomoosa"
+      },
+      "IR-2902": {
+        "fa": "بستک",
+        "en": "bastak"
+      },
+      "IR-2903": {
+        "fa": "بشاگرد",
+        "en": "bashagard"
+      },
+      "IR-2904": {
+        "fa": "بندرلنگه",
+        "en": "bandar-lengeh"
+      },
+      "IR-2905": {
+        "fa": "بندرعباس",
+        "en": "bandar-abbas"
+      },
+      "IR-2906": {
+        "fa": "پارسیان",
+        "en": "parsian"
+      },
+      "IR-2907": {
+        "fa": "جاسک",
+        "en": "jask"
+      },
+      "IR-2908": {
+        "fa": "حاجی‌آباد",
+        "en": "haji-abad"
+      },
+      "IR-2909": {
+        "fa": "خمیر",
+        "en": "khamir"
+      },
+      "IR-2910": {
+        "fa": "رودان",
+        "en": "roodan"
+      },
+      "IR-2911": {
+        "fa": "سیریک",
+        "en": "sirik"
+      },
+      "IR-2912": {
+        "fa": "قشم",
+        "en": "qeshm"
+      },
+      "IR-2913": {
+        "fa": "میناب",
+        "en": "minab"
+      }
+    }
   },
   "IR-30": {
     "fa": "همدان",
-    "en": "hamadan"
+    "en": "hamadan",
+    "cities": {
+      "IR-3001": {
+        "fa": "اسدآباد",
+        "en": "asad-abad"
+      },
+      "IR-3002": {
+        "fa": "بهار",
+        "en": "bahar"
+      },
+      "IR-3002": {
+        "fa": "تویسرکان",
+        "en": "toyeserkan"
+      },
+      "IR-3004": {
+        "fa": "رزن",
+        "en": "razan"
+      },
+      "IR-3005": {
+        "fa": "فامنین",
+        "en": "famenin"
+      },
+      "IR-3006": {
+        "fa": "کبودرآهنگ",
+        "en": "kaboodar-ahang"
+      },
+      "IR-3007": {
+        "fa": "ملایر",
+        "en": "malayer"
+      },
+      "IR-3008": {
+        "fa": "همدان",
+        "en": "hamadan"
+      }
+    }
   },
   "IR-31": {
     "fa": "یزد",
-    "en": "yazd"
+    "en": "yazd",
+    "cities": {
+      "IR-3101": {
+        "fa": "ابرکوه",
+        "en": "abrkooh"
+      },
+      "IR-3102": {
+        "fa": "اردکان",
+        "en": "ardakan"
+      },
+      "IR-3103": {
+        "fa": "اشکذر",
+        "en": "ashkezar"
+      },
+      "IR-3104": {
+        "fa": "بافق",
+        "en": "bafq"
+      },
+      "IR-3105": {
+        "fa": "بهاباد",
+        "en": "bahabad"
+      },
+      "IR-3106": {
+        "fa": "‌تفت",
+        "en": "taft"
+      },
+      "IR-3107": {
+        "fa": "خاتم",
+        "en": "khatam"
+      },
+      "IR-3108": {
+        "fa": "مهریز",
+        "en": "mehriz"
+      },
+      "IR-3109": {
+        "fa": "میبد",
+        "en": "meybod"
+      },
+      "IR-3110": {
+        "fa": "یزد",
+        "en": "yazd"
+      }
+    }
   }
 }
