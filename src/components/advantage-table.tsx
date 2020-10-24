@@ -13,7 +13,7 @@ const AdvantageTable: React.FC<AdvantageTableType> = ({ items }) => {
   ))
 
   return (
-    <table>
+    <table className="table-auto bg-white my-4 rounded">
       <thead>
         <tr>
           <th className="border px-4 py-2">مشاغل</th>

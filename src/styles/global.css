@@ -19,3 +19,11 @@ html, body {
 .iran-map path:hover {
     @apply .highlight-province;
 }
+
+.after\:hash:after {
+    content: "#";
+}
+
+.translate-r-2px {
+    transform: translateX(2px)!important;
+}

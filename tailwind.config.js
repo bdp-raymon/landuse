@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {},
+  variants: {
+    opacity: ["responsive", "hover", "focus", "active", "group-hover"],
+  },
   plugins: [require("tailwindcss-rtl")],
 }
