@@ -1,11 +1,11 @@
 import * as React from "react"
+import Province from "components/province"
 
-export default function() {
-
+export default function () {
   return (
-    <p>
-      alborz
-    </p>
+    <p>s</p>
+    // <Province province={} SVG={}>
+    //   <div>descriptions</div>
+    // </Province>
   )
-
 }

@@ -1,10 +1,10 @@
 import * as React from "react"
 import { navigate } from "gatsby"
-import ProvincesList from "../components/provinces-list"
-import Map from "../components/map"
+import Map from "components/map"
+import MapList from "components/map-list"
 
-import IranMap from "../maps/iran.svg"
-import Provinces from "../fixtures/provinces.json"
+import IranMap from "maps/iran.svg"
+import Provinces from "fixtures/provinces.json"
 
 export default function Home() {
   const [hovered, setHovered] = React.useState<string | null>(null)
@@ -17,7 +17,8 @@ export default function Home() {
     <div className="w-full">
       <div className="flex justify-center">
         <div className="flex-1">
-          <ProvincesList
+          <MapList
+            data={Provinces}
             onSelect={navigateToProvince}
             onHover={province => setHovered(province)}
             onLeave={() => setHovered(null)}
