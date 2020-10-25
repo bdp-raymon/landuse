@@ -6,10 +6,12 @@ type JobTableType = {
 
 const JobTable: React.FC<JobTableType> = ({ items }) => {
   const body = items.map((item, index) => (
-    <tr>
+    <tr key={"item" + index}>
       <td className="border px-4 py-2">{index + 1}</td>
-      {item.map(subItem => (
-        <td className="border px-4 py-2">{subItem}</td>
+      {item.map((subItem, index) => (
+        <td key={"subItem" + index} className="border px-4 py-2">
+          {subItem}
+        </td>
       ))}
     </tr>
   ))

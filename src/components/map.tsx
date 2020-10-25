@@ -48,7 +48,12 @@ const Map: React.FC<IranType> = ({
   return (
     <>
       <ReactTooltip />
-      <SVG onClick={onClick} onMouseOver={onMouseOver} onMouseOut={onLeave} />
+      <SVG
+        class="fill-current text-teal-500"
+        onClick={onClick}
+        onMouseOver={onMouseOver}
+        onMouseOut={onLeave}
+      />
     </>
   )
 }

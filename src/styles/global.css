@@ -11,6 +11,10 @@ html, body {
     font-family: IRANSans;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .highlight-province {
     cursor: pointer;
     fill: red;
@@ -25,5 +29,9 @@ html, body {
 }
 
 .translate-r-2px {
-    transform: translateX(2px)!important;
+    transform: translateX(-2px);
+}
+
+.hover\:translate-r-2px:hover {
+    transform: translateX(-2px);
 }
