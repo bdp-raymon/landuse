@@ -5,7 +5,7 @@ import type { Province as ProvinceModel } from "../types/Province"
 import MapList from "./map-list"
 
 type ProvinceType = {
-  children: React.ReactNode
+  children?: React.ReactNode
   SVG: React.ReactNode
   province: ProvinceModel
 }
@@ -20,8 +20,8 @@ const Province: React.FC<ProvinceType> = ({ children, SVG, province }) => {
   }
 
   return (
-    <div className="w-full flex flex-row">
-      <div className="flex-1">
+    <div className="w-full flex flex-row items-center">
+      <div className="flex-1 px-8">
         <MapList
           link={code =>
             "/provinces/" + province.en + "/cities/" + province.cities[code].en

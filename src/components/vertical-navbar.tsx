@@ -66,7 +66,7 @@ const VerticalNavbar: React.FC<VerticalNavbarType> = ({ items }) => {
 
     highlightMenu()
 
-    const listener = debounce(highlightMenu, 1000)
+    const listener = debounce(highlightMenu, 100)
 
     document.addEventListener("scroll", listener)
 

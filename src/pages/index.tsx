@@ -15,7 +15,36 @@ export default function Home() {
 
   return (
     <div className="w-full">
-      <div className="flex justify-center">
+      <div
+        className="bg-black flex w-full h-64 flex flex-col justify-center items-center pr-24"
+        style={{
+          backgroundImage: "url(/slider.jpg)",
+          height: "40rem",
+          backgroundPosition: "100% 30%",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="flex flex-row">
+          <div className="flex w-1/3">
+            <div />
+          </div>
+          <div className="flex flex-col w-2/5">
+            <p className="text-4xl text-yellow-500">
+              مسئولان برای ایجاد اشتغال شب و روز نشناسند
+            </p>
+            <p className="text-3xl leading-10 text-white">
+              مجموعه‌ای که برای ایجاد اشتغال در کشور کار می‌کند، بایدمثل اتاق
+              جنگِ دوران دفاع مقدّس که شب و روز نمی‌شناخت، کار کند.
+            </p>
+            <div className="mt-8 text-white">
+              <p>رهبر انقلاب</p>
+              <p>۸۱-۰۱-۰۹</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex justify-center px-12 py-8">
         <div className="flex-1">
           <MapList
             link={code => "provinces/" + Provinces[code].en}

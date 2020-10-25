@@ -35,3 +35,7 @@ html {
 .hover\:translate-r-2px:hover {
     transform: translateX(-2px);
 }
+
+.map path {
+    cursor: pointer;
+}

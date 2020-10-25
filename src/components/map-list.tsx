@@ -29,15 +29,15 @@ const MapList: React.FC<MapListType> = ({
             className="flex w-full flex-row items-center cursor-pointer"
             to={path}
           >
-            <div className="z-10 rounded-full bg-red-200 p-4">
+            <div className="text-2xl text-gray-300 z-10 rounded-full bg-teal-700 p-4 border-1 border-white">
               <FaPeriscope />
             </div>
 
             <span
               className={
-                "-mr-2 flex-1 py-1 pl-2 rounded pr-4" +
+                "-mr-8 flex-1 py-2 rounded-full pr-12 text-white" +
                 " " +
-                (code === focus ? "bg-green-400" : "bg-blue-400")
+                (code === focus ? "bg-teal-800" : "bg-indigo-800")
               }
             >
               {item.fa}
@@ -47,7 +47,7 @@ const MapList: React.FC<MapListType> = ({
       )
     })
 
-    return <ul className="grid grid-cols-3 gap-x-2 gap-y-4 ">{items}</ul>
+    return <ul className="grid grid-cols-3 gap-x-4 gap-y-4 ">{items}</ul>
   }
 
   return (

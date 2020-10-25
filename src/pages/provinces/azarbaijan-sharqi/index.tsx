@@ -6,8 +6,9 @@ import Provinces from "fixtures/provinces.json"
 
 export default function () {
   return (
-    <Province province={Provinces["IR-01"]} SVG={AzerbaijanSharqiMap}>
-      <div>descriptions</div>
-    </Province>
+    <Province
+      province={Provinces["IR-01"]}
+      SVG={AzerbaijanSharqiMap}
+    ></Province>
   )
 }

@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import ReactTooltip from "react-tooltip"
 
 type IranType = {
-  SVG: React.ReactNode
+  SVG: React.ElementType
   onHover: (city: string) => void
   onLeave: () => void
   onSelect: (city: string) => void
@@ -38,23 +38,18 @@ const Map: React.FC<IranType> = ({
       return
     }
 
-    focused.classList.add("highlight-province")
+    focused.classList.add("text-teal-800")
 
     return () => {
-      focused.classList.remove("highlight-province")
+      focused.classList.remove("text-teal-800")
     }
   }, [focus])
 
   return (
-    <>
+    <div className="fill-current map text-teal-500">
       <ReactTooltip />
-      <SVG
-        class="fill-current text-teal-500"
-        onClick={onClick}
-        onMouseOver={onMouseOver}
-        onMouseOut={onLeave}
-      />
-    </>
+      <SVG onClick={onClick} onMouseOver={onMouseOver} onMouseOut={onLeave} />
+    </div>
   )
 }
 
