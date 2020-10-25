@@ -6,7 +6,7 @@ import MapList from "./map-list"
 
 type ProvinceType = {
   children?: React.ReactNode
-  SVG: React.ReactNode
+  SVG: React.ElementType
   province: ProvinceModel
 }
 
@@ -33,7 +33,7 @@ const Province: React.FC<ProvinceType> = ({ children, SVG, province }) => {
         />
         {children}
       </div>
-      <div className="w-1/3">
+      <div className="w-1/3 py-4">
         <Map
           SVG={SVG}
           focus={hovered}
