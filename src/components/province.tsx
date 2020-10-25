@@ -33,7 +33,7 @@ const Province: React.FC<ProvinceType> = ({ children, SVG, province }) => {
         />
         {children}
       </div>
-      <div className="w-1/3 py-4">
+      <div className="w-1/3 py-4 px-8">
         <Map
           SVG={SVG}
           focus={hovered}
