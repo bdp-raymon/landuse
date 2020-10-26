@@ -1,11 +1,14 @@
-import React from "react"
+import * as React from "react"
 import Province from "components/province"
+
+import Map from "maps/iran/alborz.svg"
+import Provinces from "fixtures/provinces.json"
 
 export default function () {
   return (
-    <p>s</p>
-    // <Province province={} SVG={}>
-    //   <div>descriptions</div>
-    // </Province>
+    <Province
+      province={Provinces["IR-05"]}
+      SVG={Map}
+    ></Province>
   )
 }
