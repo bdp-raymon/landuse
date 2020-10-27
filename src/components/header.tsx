@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Search from "./search"
 
 const Header = () => {
   return (
@@ -25,6 +26,7 @@ const Header = () => {
             معاونت اشتغال و خودکفایی کمیته امداد امام خمینی(ره)
           </p>
         </Link>
+        <Search />
       </div>
       <div>
         <img
