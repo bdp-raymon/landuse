@@ -1,14 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import Search from "./search"
-import Logo from "assets/img/logo.svg"
+import logo from "assets/img/logo.png"
 import flag from "assets/img/flag-iran.png"
 
 const Header = () => {
   return (
     <div className="flex flex-row justify-between items-center px-8 py-4 bg-teal-900">
       <div className="flex flex-col justify-center items-center">
-        <Logo width="75px" height="75px" className="mb-2" />
+        <img width="75px" height="75px" src={logo} alt="committee logo" />
         <p className="mb-1 text-xs text-white">کمیته امداد امام خمینی</p>
         <p className="text-xs text-white">معاونت اشتغال و تحصیل</p>
       </div>
