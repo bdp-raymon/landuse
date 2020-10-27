@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="w-full">
       <div
-        className="bg-black flex w-full h-64 flex flex-col justify-center items-center pr-24"
+        className="bg-black w-full h-64 flex flex-col justify-center items-center pr-24"
         style={{
           backgroundImage: "url(/slider.jpg)",
           height: "40rem",
