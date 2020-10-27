@@ -1,9 +1,8 @@
 import * as React from "react"
 import Provinces from "fixtures/provinces.json"
-import Select, { ActionMeta, OptionsType, ValueType } from "react-select"
+import Select, { ActionMeta, ValueType } from "react-select"
 import { navigate } from "gatsby"
 import { SearchItem } from "types/SearchItem"
-import { DropdownIndicator } from "react-select/src/components/indicators"
 
 const Search: React.FC = () => {
   let provinces: SearchItem[] = []
