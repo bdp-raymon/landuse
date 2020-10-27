@@ -24,7 +24,7 @@ const MapList: React.FC<MapListType> = ({
       const item = data[code]
       const path = link(code)
       return (
-        <li onMouseOver={() => onHover(code)} onMouseOut={onLeave}>
+        <li key={code} onMouseOver={() => onHover(code)} onMouseOut={onLeave}>
           <Link
             className="flex w-full flex-row items-center cursor-pointer"
             to={path}

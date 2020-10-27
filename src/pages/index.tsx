@@ -19,13 +19,7 @@ export default function Home() {
   return (
     <div className="w-full">
       <div
-        className="bg-black w-full h-64 flex flex-col justify-center items-center pr-24"
-        style={{
-          backgroundImage: "url(/slider.jpg)",
-          height: "40rem",
-          backgroundPosition: "100% 30%",
-          backgroundRepeat: "no-repeat",
-        }}
+        className="slider bg-black w-full h-64 flex flex-col justify-center items-center pr-24"
       >
         <div className="flex flex-row">
           <div className="flex w-1/3">
@@ -49,12 +43,7 @@ export default function Home() {
       <Container title="جستجو">
         <div className="pt-4">
           <div
-            className="w-full"
-            style={{
-              background: "url(/search-bg.jpg)",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-            }}
+            className="search-background w-full"
           >
             <div className="w-1/2 mx-auto py-40">
               <Search />

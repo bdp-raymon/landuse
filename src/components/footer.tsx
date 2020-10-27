@@ -1,4 +1,6 @@
 import * as React from "react"
+import Telegram from 'assets/img/telegram.svg'
+import Instagram from 'assets/img/instagram.svg'
 
 const Footer = () => {
   return (
@@ -6,12 +8,13 @@ const Footer = () => {
       <div className="flex flex-row-reverse items-center space-x-4">
         <div>
           <a href="#">
-            <img width="30px" height="30px" src="/telegram.svg" alt="" />
+            <Telegram className="w-8 h-8"/>
+            {/*<img width="30px" height="30px" src={telegram} alt="" />*/}
           </a>
         </div>
         <div>
           <a href="#">
-            <img width="30px" height="30px" src="/instagram.svg" alt="" />
+            <Instagram className="w-8 h-8" />
           </a>
         </div>
         <div>

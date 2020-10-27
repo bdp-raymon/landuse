@@ -40,6 +40,18 @@ html {
 .map path {
   cursor: pointer;
 }
+.slider {
+  background-image: url(../assets/img/slider.jpg);
+  height: 40rem;
+  background-position: 100% 30%;
+  background-repeat: no-repeat;
+}
+
+.search-background {
+  background: url(../assets/img/search-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .hossein-container::before {
   content: attr(data-content);
