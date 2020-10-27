@@ -6,36 +6,50 @@
 
 @import "_fonts.css";
 
-html, body {
-    direction: rtl;
-    font-family: IRANSans;
+html,
+body {
+  direction: rtl;
+  font-family: IRANSans;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .highlight-province {
-    cursor: pointer;
-    fill: red;
+  cursor: pointer;
+  fill: red;
 }
 
 .iran-map path:hover {
-    @apply .highlight-province;
+  @apply .highlight-province;
 }
 
 .after\:hash:after {
-    content: "#";
+  content: "#";
 }
 
 .translate-r-2px {
-    transform: translateX(-2px);
+  transform: translateX(-2px);
 }
 
 .hover\:translate-r-2px:hover {
-    transform: translateX(-2px);
+  transform: translateX(-2px);
 }
 
 .map path {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.hossein-container::before {
+  content: attr(data-content);
+  position: absolute;
+  top: -25px;
+  right: 100px;
+  background-color: #e2e8f0;
+  color: #718293;
+  font-weight: 700;
+  padding: 5px 20px 12px 20px;
+  border-radius: 50px;
+  z-index: 1;
 }
