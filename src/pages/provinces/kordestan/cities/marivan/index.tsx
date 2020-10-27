@@ -3,7 +3,7 @@ import Section from "components/section"
 import Provinces from "fixtures/provinces.json"
 import CityContent from "components/city-content"
 export default function () {
-  const city = Provinces["IR-20"].cities["IR-2010"]
+  const city = Provinces["IR-20"].cities["IR-2001"]
   const menu = {
     introduction: "آشنایی با شهرستان",
     analyze: "تحلیل شهرستان",
