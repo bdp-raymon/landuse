@@ -7,7 +7,7 @@ import IranMap from "maps/iran.svg"
 import Provinces from "fixtures/provinces.json"
 import Container from "components/container"
 import Search from "components/search"
-import { url } from "inspector"
+import Slider from "components/slider"
 
 export default function Home() {
   const [hovered, setHovered] = React.useState<string | null>(null)
@@ -18,28 +18,10 @@ export default function Home() {
 
   return (
     <div className="w-full">
-      <div
-        className="slider bg-black w-full h-64 flex flex-col justify-center items-center pr-24"
-      >
-        <div className="flex flex-row">
-          <div className="flex w-1/3">
-            <div />
-          </div>
-          <div className="flex flex-col w-2/5">
-            <p className="text-4xl text-yellow-500">
-              مسئولان برای ایجاد اشتغال شب و روز نشناسند
-            </p>
-            <p className="text-3xl leading-10 text-white">
-              مجموعه‌ای که برای ایجاد اشتغال در کشور کار می‌کند، بایدمثل اتاق
-              جنگِ دوران دفاع مقدّس که شب و روز نمی‌شناخت، کار کند.
-            </p>
-            <div className="mt-8 text-white">
-              <p>رهبر انقلاب</p>
-              <p>۸۱-۰۱-۰۹</p>
-            </div>
-          </div>
-        </div>
+      <div dir="ltr">
+        <Slider />
       </div>
+
       <Container title="جستجو">
         <div className="pt-4">
           <div className="search-background w-full">
