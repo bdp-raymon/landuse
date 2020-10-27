@@ -26,9 +26,6 @@ const Header = () => {
             معاونت اشتغال و خودکفایی کمیته امداد امام خمینی(ره)
           </p>
         </Link>
-        <div className="mt-4" >
-        <Search />
-        </div>
       </div>
       <div>
         <img

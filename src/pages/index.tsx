@@ -6,6 +6,8 @@ import MapList from "components/map-list"
 import IranMap from "maps/iran.svg"
 import Provinces from "fixtures/provinces.json"
 import Container from "components/container"
+import Search from "components/search"
+import { url } from "inspector"
 
 export default function Home() {
   const [hovered, setHovered] = React.useState<string | null>(null)
@@ -44,6 +46,22 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Container title="جستجو">
+        <div className="pt-4">
+          <div
+            className="w-full"
+            style={{
+              background: "url(/search-bg.jpg)",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <div className="w-1/3 mx-auto py-40">
+              <Search />
+            </div>
+          </div>
+        </div>
+      </Container>
 
       <Container title="نقشه">
         <div className="flex justify-center px-12 py-8">
