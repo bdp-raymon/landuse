@@ -42,14 +42,27 @@ const Search: React.FC = () => {
   }
 
   return (
-    <Select
-      value={null}
-      options={groupedOptions}
-      onChange={onSelect}
-      placeholder="جستجو"
-      isRtl
-      isSearchable
-    />
+    <div className="flex flex-row bg-red-600 rounded">
+      <span className=" text-white w-2/12 text-center align-middle h-full self-center">
+        جستجو
+      </span>
+      <div className="w-10/12">
+        <Select
+          value={null}
+          options={groupedOptions}
+          onChange={onSelect}
+          placeholder="اسم شهرستان خود را بنویسید..."
+          isRtl
+          isSearchable
+          styles={{
+            menu: (provided, state) => ({
+              ...provided,
+              zIndex: 99,
+            }),
+          }}
+        />
+      </div>
+    </div>
   )
 }
 

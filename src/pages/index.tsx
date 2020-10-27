@@ -56,7 +56,7 @@ export default function Home() {
               backgroundSize: "cover",
             }}
           >
-            <div className="w-1/3 mx-auto py-40">
+            <div className="w-1/2 mx-auto py-40">
               <Search />
             </div>
           </div>

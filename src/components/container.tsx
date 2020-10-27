@@ -16,7 +16,7 @@ const Container: React.FC<ContainerProps> = ({
     <div
       id="container"
       data-content={title}
-      className={`relative bg-${bg} hossein-container z-10`}
+      className={`relative bg-${bg} hossein-container`}
     >
       {children}
     </div>
