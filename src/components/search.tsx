@@ -8,12 +8,14 @@ import { DropdownIndicator } from "react-select/src/components/indicators"
 const Search: React.FC = () => {
   let provinces: SearchItem[] = []
   let cities: SearchItem[] = []
-  Object.keys(Provinces).map((key: any) => {
-    const cityList = Object.keys(Provinces[key].cities).map((cityKey: any) => ({
-      label: Provinces[key].cities[cityKey].fa,
-      value: Provinces[key].cities[cityKey].en,
-      provinceValue: Provinces[key].en,
-    }))
+  Object.keys(Provinces).map((key: string) => {
+    const cityList = Object.keys(Provinces[key].cities).map(
+      (cityKey: string) => ({
+        label: Provinces[key].cities[cityKey].fa,
+        value: Provinces[key].cities[cityKey].en,
+        provinceValue: Provinces[key].en,
+      })
+    )
     provinces.push({
       label: Provinces[key].fa,
       value: Provinces[key].en,
