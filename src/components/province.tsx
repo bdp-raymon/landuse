@@ -20,8 +20,8 @@ const Province: React.FC<ProvinceType> = ({ children, SVG, province }) => {
   }
 
   return (
-    <div className="w-full flex flex-row items-center">
-      <div className="flex-1 px-8">
+    <div className="w-full flex flex-col lg:flex-row">
+      <div className="flex-1 p-4">
         <MapList
           link={code =>
             "/provinces/" + province.en + "/cities/" + province.cities[code].en
@@ -33,7 +33,7 @@ const Province: React.FC<ProvinceType> = ({ children, SVG, province }) => {
         />
         {children}
       </div>
-      <div className="w-1/3 py-4 px-8">
+      <div className="flex-1 py-4 px-8">
         <Map
           SVG={SVG}
           focus={hovered}

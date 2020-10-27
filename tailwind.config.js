@@ -14,7 +14,11 @@ module.exports = {
     ],
   },
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        "2xl": "1560px",
+      },
+    },
   },
   variants: {
     opacity: ["responsive", "hover", "focus", "active", "group-hover"],

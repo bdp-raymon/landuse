@@ -17,9 +17,12 @@ const CityContent: React.FC<CityContentType> = ({
 }) => {
   return (
     <div className="w-full">
-      <div className="container mx-auto">
-        <div className="flex flex-row">
-          <VerticalNavbar items={menu} />
+      <div className="xl:container mx-auto">
+        <div className="flex flex-col-reverse sm:flex-row">
+          <div className="hidden lg:block">
+            <VerticalNavbar items={menu} />
+          </div>
+
           <div className="flex-1 pl-8 pr-12 bg-white py-8">{children}</div>
           <div className="flex flex-col">
             <div className="sticky overflow-y-auto bottom-0">

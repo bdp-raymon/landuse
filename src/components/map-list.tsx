@@ -47,7 +47,11 @@ const MapList: React.FC<MapListType> = ({
       )
     })
 
-    return <ul className="grid grid-cols-3 gap-x-4 gap-y-4 ">{items}</ul>
+    return (
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-x-4 gap-y-4 ">
+        {items}
+      </ul>
+    )
   }
 
   return (

@@ -24,13 +24,13 @@ export default function Home() {
 
       <div className="pt-2">
         <div className="search-background w-full">
-          <div className="w-1/2 mx-auto py-40">
+          <div className="w-full px-8 md:px-0 md:w-2/3 lg:w-1/2 mx-auto py-40">
             <Search />
           </div>
         </div>
       </div>
 
-      <div className="flex justify-center px-12 py-8">
+      <div className="flex flex-col lg:flex-row justify-center px-12 py-8 ">
         <div className="flex-1">
           <MapList
             link={code => "provinces/" + Provinces[code].en}
@@ -41,7 +41,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex px-8">
+        <div className="px-8">
           <Map
             SVG={IranMap}
             onHover={province => setHovered(province)}
