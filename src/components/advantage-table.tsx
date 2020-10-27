@@ -1,10 +1,15 @@
 import React from "react"
 
 type AdvantageTableType = {
-  items: Array<string>
+  items?: undefined | null | Array<string>
 }
 
 const AdvantageTable: React.FC<AdvantageTableType> = ({ items }) => {
+
+  if (!items) {
+    return null;
+  }
+
   const body = items.map((item, index) => (
     <tr key={"advantage" + index}>
       <td className="border px-4 py-2">{item}</td>

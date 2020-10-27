@@ -8,7 +8,7 @@ export const wrapPageElement = ({ element, props }) => {
     <div>
       <div className="flex flex-col bg-gray-300" style={{ minHeight: "100vh" }}>
         <Header />
-        <div className="flex flex-1">{element}</div>
+        <div className="flex flex-1 w-full">{element}</div>
         <Footer />
       </div>
     </div>

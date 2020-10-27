@@ -16,7 +16,7 @@ const CityContent: React.FC<CityContentType> = ({
   children,
 }) => {
   return (
-    <div className="w-screen">
+    <div className="w-full">
       <div className="container mx-auto">
         <div className="flex flex-row">
           <VerticalNavbar items={menu} />
