@@ -5,9 +5,8 @@ type AdvantageTableType = {
 }
 
 const AdvantageTable: React.FC<AdvantageTableType> = ({ items }) => {
-
   if (!items) {
-    return null;
+    return null
   }
 
   const body = items.map((item, index) => (
@@ -18,7 +17,7 @@ const AdvantageTable: React.FC<AdvantageTableType> = ({ items }) => {
   ))
 
   return (
-    <table className="table-auto bg-white rounded">
+    <table className="w-56 table-auto bg-white rounded">
       <thead>
         <tr>
           <th className="border px-4 py-2">مشاغل</th>

@@ -19,7 +19,7 @@ export default function () {
     },
   }
   return (
-    <div>
+     <div className="w-full">
       <CityContent menu={menu} advantage={city.advantage}>
         <Section id="introduction" title="آشنایی با شهرستان">
           <p>
