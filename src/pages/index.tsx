@@ -42,9 +42,7 @@ export default function Home() {
       </div>
       <Container title="جستجو">
         <div className="pt-4">
-          <div
-            className="search-background w-full"
-          >
+          <div className="search-background w-full">
             <div className="w-1/2 mx-auto py-40">
               <Search />
             </div>
