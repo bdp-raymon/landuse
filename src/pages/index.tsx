@@ -18,43 +18,39 @@ export default function Home() {
 
   return (
     <div className="w-full">
-      <div dir="ltr">
+      <div>
         <Slider />
       </div>
 
-      <Container title="جستجو">
-        <div className="pt-4">
-          <div className="search-background w-full">
-            <div className="w-1/2 mx-auto py-40">
-              <Search />
-            </div>
+      <div className="pt-2">
+        <div className="search-background w-full">
+          <div className="w-1/2 mx-auto py-40">
+            <Search />
           </div>
         </div>
-      </Container>
+      </div>
 
-      <Container title="نقشه">
-        <div className="flex justify-center px-12 py-8">
-          <div className="flex-1">
-            <MapList
-              link={code => "provinces/" + Provinces[code].en}
-              data={Provinces}
-              onHover={province => setHovered(province)}
-              onLeave={() => setHovered(null)}
-              focus={hovered}
-            />
-          </div>
-
-          <div className="flex px-8">
-            <Map
-              SVG={IranMap}
-              onHover={province => setHovered(province)}
-              onLeave={() => setHovered(null)}
-              onSelect={navigateToProvince}
-              focus={hovered}
-            />
-          </div>
+      <div className="flex justify-center px-12 py-8">
+        <div className="flex-1">
+          <MapList
+            link={code => "provinces/" + Provinces[code].en}
+            data={Provinces}
+            onHover={province => setHovered(province)}
+            onLeave={() => setHovered(null)}
+            focus={hovered}
+          />
         </div>
-      </Container>
+
+        <div className="flex px-8">
+          <Map
+            SVG={IranMap}
+            onHover={province => setHovered(province)}
+            onLeave={() => setHovered(null)}
+            onSelect={navigateToProvince}
+            focus={hovered}
+          />
+        </div>
+      </div>
     </div>
   )
 }

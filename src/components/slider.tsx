@@ -6,14 +6,16 @@ import Slide2 from "assets/slides/slide2.jpg"
 
 const Slider: React.FC = () => {
   return (
-    <Carousel showThumbs={false}>
-      <div>
-        <img src={Slide1} alt="حدیث خامنه ای" />
-      </div>
-      <div>
-        <img src={Slide2} alt="حدیث خمینی" />
-      </div>
-    </Carousel>
+    <div dir="ltr">
+      <Carousel showThumbs={false}>
+        <div>
+          <img src={Slide1} alt="حدیث خامنه ای" />
+        </div>
+        <div>
+          <img src={Slide2} alt="حدیث خمینی" />
+        </div>
+      </Carousel>
+    </div>
   )
 }
 
