@@ -17,7 +17,7 @@ const Header = () => {
         <Link to="/">
           <p className="text-sm text-white">بسمه تعالی</p>
           <h3 className="text-sm md:text-3xl text-white mb-2">
-            سامانه جامع مزیت سنجی شغلی ایران
+            سامانه جامع مزیت سنجی شغلی شهرستان‌های ایران
           </h3>
           <p className="text-xs text-white">
             معاونت اشتغال و خودکفایی کمیته امداد امام خمینی(ره)
