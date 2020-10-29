@@ -105,7 +105,7 @@ const VerticalNavbar: React.FC<VerticalNavbarType> = ({ items }) => {
 
   return (
     <nav className="vertical-navbar flex flex-col px-4 w-56">
-      <div className="pt-8 sticky overflow-y-auto overflow-x-hidden top-0">
+      <div className="pt-8 overflow-x-hidden top-0">
         <ul className="text-sm space-y-4 text-gray-600">
           {mapItemsToList(items)}
         </ul>

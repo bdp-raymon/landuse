@@ -9,8 +9,8 @@ const Header = () => {
       <div className="flex flex-col justify-center items-center">
         <img width="75px" height="75px" src={logo} alt="committee logo" />
         <div className="flex flex-col justify-center items-center">
-          <p className="mb-1 text-xs text-white">کمیته امداد امام خمینی</p>
-          <p className="text-xs text-white">معاونت اشتغال و تحصیل</p>
+          <p className="mb-1 text-xs text-white">کمیته امداد امام خمینی(ره)</p>
+          <p className="text-xs text-white">معاونت اشتغال و خودکفایی</p>
         </div>
       </div>
       <div className="hidden sm:block text-center">

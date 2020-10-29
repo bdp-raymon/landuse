@@ -43,15 +43,15 @@ const Search: React.FC = () => {
 
   return (
     <div className="flex flex-row bg-red-600 rounded">
-      <span className=" text-white w-2/12 text-center align-middle h-full self-center">
+      <span className="text-white px-2 text-center align-middle h-full self-center">
         جستجو
       </span>
-      <div className="w-10/12">
+      <div className="w-full">
         <Select
           value={null}
           options={groupedOptions}
           onChange={onSelect}
-          placeholder="اسم شهرستان خود را بنویسید..."
+          placeholder="جستجو..."
           isRtl
           isSearchable
           styles={{
