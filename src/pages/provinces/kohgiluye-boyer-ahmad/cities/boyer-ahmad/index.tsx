@@ -25,7 +25,7 @@ export default function () {
   }
   return (
      <div className="w-full">
-      <CityContent menu={menu} advantage={city.advantage}>
+      <CityContent menu={menu} city={city}>
         <Section id="introduction" title="آشنایی با شهرستان">
           <p>
             شهرستان بویر احمد با مرکزیت یاسوج ۶/۲۲ درصد از مساحت کل استان را در

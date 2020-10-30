@@ -25,7 +25,7 @@ export default function () {
   }
   return (
      <div className="w-full">
-      <CityContent menu={menu} advantage={city.advantage}>
+      <CityContent menu={menu} city={city}>
         <Section id="introduction" title="آشنایی با شهرستان">
           <p>
             شهرستان بناب با وسعتي معادل 75/778 کیلومترمربع در بخش جنوب غربی

@@ -25,7 +25,7 @@ export default function () {
   }
   return (
      <div className="w-full">
-      <CityContent menu={menu} advantage={city.advantage}>
+      <CityContent menu={menu} city={city}>
         <Section id="introduction" title="آشنایی با شهرستان">
           <p>
             شهرستان نی ریز یکی از شهرستانهای شرقی استان فارس است و مرکز آن شهر

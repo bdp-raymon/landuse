@@ -41,7 +41,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="py-4 lg:px-8">
+        <div className="flex-1 py-4 lg:px-8">
           <Map
             SVG={IranMap}
             onHover={province => setHovered(province)}

@@ -24,7 +24,7 @@ export default function () {
   }
   return (
      <div className="w-full">
-      <CityContent menu={menu} advantage={city.advantage}>
+      <CityContent menu={menu} city={city}>
         <Section id="introduction" title="آشنایی با شهرستان">
           <p>
             بندر ماهشَهر شهری است که در جنوب استان خوزستان کشور واقع شده‌است.
