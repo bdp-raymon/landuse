@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[348],{S74N:function(e,t,n){"use strict";n.r(t);var c=n("q1tI");t.default=function(){return c.createElement("div",{className:"w-full text-center mt-12"},c.createElement("p",null,"متاسفانه در حال حاضر مطلبی در مورد این شهر موجود نمی باشد."))}}}]);
+//# sourceMappingURL=component---src-pages-provinces-khorasan-razavi-cities-zebrkhan-index-tsx-912b245bb90bb0b58fa8.js.map

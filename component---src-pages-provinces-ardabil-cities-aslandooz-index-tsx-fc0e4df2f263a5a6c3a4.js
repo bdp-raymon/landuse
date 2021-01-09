@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[249],{YJIp:function(e,t,n){"use strict";n.r(t);var c=n("q1tI");t.default=function(){return c.createElement("div",{className:"w-full text-center mt-12"},c.createElement("p",null,"متاسفانه در حال حاضر مطلبی در مورد این شهر موجود نمی باشد."))}}}]);
+//# sourceMappingURL=component---src-pages-provinces-ardabil-cities-aslandooz-index-tsx-fc0e4df2f263a5a6c3a4.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[267],{Qvrb:function(e,t,n){"use strict";n.r(t);var r=n("q1tI"),c=function(){return r.createElement("div",{className:"w-full text-center mt-12"},r.createElement("p",null,"متاسفانه در حال حاضر مطلبی در مورد این شهر موجود نمی باشد."))};t.default=function(){return r.createElement(c,null)}}}]);
+//# sourceMappingURL=component---src-pages-provinces-azarbaijan-sharqi-cities-horand-index-tsx-7bbdf0e276e7c67ed7d2.js.map

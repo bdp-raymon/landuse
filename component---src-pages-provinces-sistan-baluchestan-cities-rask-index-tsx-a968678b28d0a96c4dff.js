@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[409],{t9oz:function(e,t,n){"use strict";n.r(t);var c=n("q1tI");t.default=function(){return c.createElement("div",{className:"w-full text-center mt-12"},c.createElement("p",null,"متاسفانه در حال حاضر مطلبی در مورد این شهر موجود نمی باشد."))}}}]);
+//# sourceMappingURL=component---src-pages-provinces-sistan-baluchestan-cities-rask-index-tsx-a968678b28d0a96c4dff.js.map

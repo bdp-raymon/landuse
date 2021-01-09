@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[326],{"2WnX":function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return r}));var c=t("q1tI");function r(){return c.createElement("div",null,c.createElement("p",{className:"text-center"},"Provinces"))}}}]);
+//# sourceMappingURL=component---src-pages-provinces-index-tsx-a41d8df77445d752282b.js.map
